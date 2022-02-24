@@ -1,0 +1,49 @@
+html {
+    height: 100%;
+}
+body{
+    margin: 0;
+    background: rgb(97, 77, 250);
+    background: linear-gradient(180deg, rgb(232, 231, 240) 0%, rgba(54, 202, 202, 0.418) 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    box-sizing: border-box;
+    font-family: 'Montserrat', 'sans-serif';
+}
+h1{
+    text-align: center;
+    color: rgba(165, 42, 42, 0.493);
+    font-size: 36px;
+}
+#newtodo{
+    text-align: center;
+}
+button{
+    border: 0px;
+    border-radius: 1rem;
+    background-color: rgba(165, 42, 42, 0.493);
+    font-weight: 900;
+    color: rgba(255, 255, 255, 0.9);
+}
+button:hover{
+    background-color: rgba(165, 42, 42, 0.3);
+    cursor: pointer;
+}
+input{
+    border: 0px solid black;
+    width: 30%;
+    height: 3vh;
+    border-radius: 1rem;
+    padding: 3px;
+    font-family: 'Montserrat', 'sans-serif';
+}
+#todos{
+    text-align: center;
+    font-style: italic;
+    font-weight: 800;
+    color: rgba(0, 0, 0, 0.6);
+}
+.task:hover{
+    text-decoration: line-through;
+    cursor: pointer;
+}
